@@ -1,0 +1,12 @@
+.bg-image-skel{
+    height: 70vh;
+    width: 35vw;
+}
+
+@media (max-width:600px){
+    .bg-image-skel{
+        height: 50vh;
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,27 @@
+.tourind .tour-card-head{
+    color: #ff5555;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.tourind .tourcard{
+    box-shadow: 0 0 20px rgba(255, 199, 199, 0.941);
+}
+
+.tourind .booking-btn{
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.tourind .bg-image-tour{
+    min-height: 80vh;
+}
+
+@media (max-width:600px){
+    .tourind .bg-image-tour{
+        min-height: 50vh;
+    }
+}
